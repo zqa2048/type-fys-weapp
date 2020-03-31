@@ -1,4 +1,5 @@
-//yfs------------------------------------------------------------------------
+namespace Yfs{
+  //yfs------------------------------------------------------------------------
 /**
  * name : IYfsActivitie
  */
@@ -895,4 +896,8 @@ export interface IMsEnterprise {
   apprdate: number;
 }
 
+}
 
+declare module "Yfs" {
+  export = Yfs
+}
